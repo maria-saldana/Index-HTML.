@@ -295,20 +295,7 @@ Contribuciones para los usuarios:
                 placeholder="Enter your comment here">
             </textarea>
         </div>
- 
-        <!-- Multi-line Text Input Control -->
-        <button type="submit" value="submit">
-            Submit
-        </button>
-<?php
-if(!isset($_SESSION['name'])){
-  loginForm();
-}
-else{
-?>
-<div id="wrapper">
-  <div id="menu">
-    <p class="welcome">Welcome,chat <b><?php echo $_SESSION['name']; ?></b></p>
+ <p> MARIA DEL CARMEN SALDAÑA BERNARDINO 217364324 Conceptualización de servicios en la nube</p>
     <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
     <div style="clear:both"></div>
   </div>  
